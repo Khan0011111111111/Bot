@@ -1,0 +1,69 @@
+{
+  "credentials": {
+    "license_number": "SMITH061102J99AB",
+    "application_reference": "123456789"
+  },
+  "test_type": "car",
+  "test_centers": [
+    {
+      "id": "LONDON1",
+      "name": "London Hither Green",
+      "distance": 5.2
+    },
+    {
+      "id": "LONDON2",
+      "name": "London Wood Green",
+      "distance": 8.7
+    },
+    {
+      "id": "LONDON3",
+      "name": "London Isleworth",
+      "distance": 12.3
+    }
+  ],
+  "date_range": {
+    "start_date": "2025-05-01",
+    "end_date": "2025-07-31"
+  },
+  "time_preference": {
+    "earliest": "09:00",
+    "latest": "15:00"
+  },
+  "preferred_days": [1, 2, 3, 4, 5],
+  "proxies": [
+    {
+      "host": "uk1.residential.example.com",
+      "port": 8080,
+      "username": "user123",
+      "password": "pass123",
+      "rotation_interval": 1800
+    },
+    {
+      "host": "uk2.residential.example.com",
+      "port": 8080,
+      "username": "user456",
+      "password": "pass456",
+      "rotation_interval": 1800
+    }
+  ],
+  "twocaptcha_api_key": "abcdef123456789",
+  "notification": {
+    "email_enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_username": "your.email@gmail.com",
+    "smtp_password": "app_password_here",
+    "sender_email": "your.email@gmail.com",
+    "recipient_email": "your.email@gmail.com",
+    "sms_enabled": true,
+    "twilio_account_sid": "AC123456789",
+    "twilio_auth_token": "auth_token_here",
+    "twilio_from_number": "+447700900000",
+    "twilio_to_number": "+447700900001"
+  },
+  "check_interval": {
+    "min": 300,
+    "max": 600
+  },
+  "headless": false
+}
